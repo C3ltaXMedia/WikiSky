@@ -1,0 +1,241 @@
+/*Blog*/
+/**Boardbreite*/
+#board {
+width: 978px !important;
+margin:0 auto !important;
+position:relativ !important;
+}
+/*** Banner Logo**/
+div#headerbanner {
+background: url("http://upload.wikiunity.com/denewsbord/c/c2/Bg1.png");
+}
+/*** Tabs ***/
+div#Tabs {
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); 
+clear: both; background:#000;
+}
+div#Tabs table tr td center a,
+div#Tabs table tr td center a.externel { font-weight: bold; color:#fff; }
+div#Tabs table tr td:hover  { background:#999; }
+td#tabsouter:hover { background:#000!important; }
+div#Tabs table tr td center strong.selflink { color:#aaa;  }
+
+
+/****Suche hier****/
+div#suche-hier {
+background:#999; 
+color:#fff; border:1px solid #999; 
+padding:10px; 
+float:right; 
+width:180px;
+}
+
+
+
+/*** Footer ***/
+div#ws-footer-line {
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); 
+clear: both; background:#000;
+}
+
+div#ws-footer-line table tr td center a,
+div#ws-footer-line table tr td center a.external { font-weight: bold; color:#fff; }
+div#ws-footer-line table tr td:hover  { background:#999; }
+td#footouter:hover { background:#000!important; }
+
+/** Banner weg (WU) **/
+div#wikiunityFooterProjectBanners { display:none !important; }
+
+
+
+
+
+
+
+
+
+/* Das folgende CSS wird für alle Benutzeroberflächen geladen. */
+body {
+    background-color:#eee !important;
+    background-image: none !important;
+}
+
+a.new { color: #00a;}
+div#text-deco a span#nodeco {
+  text-decoration: none !important;
+}
+
+div#content a.external, 
+div#content a[href^="gopher://"] {
+  background:none !important;
+}
+
+#mc-endimg img {
+margin-right:-3px;
+margin-bottom:-9px;
+}
+
+.floatright{
+margin:0;
+}
+
+.printfooter,
+#ca-nstab-mediawiki,
+#ca-talk,
+#ca-edit,
+#p-cactions,
+#searchform,
+#ca-special,
+#ca-viewsource,
+#ca-move,
+#ca-history, 
+#ca-watch,
+#p-namespaces,
+#right-navigation,
+#ca-nstab-main,
+#ca-view,
+#p-personal,
+#p-tb,
+#p- h5,
+#mw-panel,
+#p-logo,
+#footer,
+#mw-head,
+#mw-page-base,
+#catlinks,
+h1#firstHeading,
+/*
+.ns-10 #content,
+.ns-12 #content,
+.ns-4 #content,
+.ns-0 #content,
+*/
+.editsection,
+div.lqt-talkpage-search,
+div.lqt_view_options,
+div.lqt_header_content,
+body.page-MediaWiki_Common_css #content,
+body.page-MediaWiki_Common_js #content,
+body.page-MediaWiki_Rechte_js #content,
+body.page-Spezial_Einstellungen #content,
+body.page-Spezial_Spezialseiten #content,
+body.page-Spezial_Hochladen #content,
+body.page-NewsContent div#backdoor {
+  display:none;
+}
+
+#content {
+   margin-left:0 !important;
+   background-color: #fff !important;
+   background-image:none;
+   color:#000;
+width: 978px !important;
+margin:0 auto !important;
+position:relativ !important;
+}
+div#content {
+   background-color:#eee !important;
+   background-image:none;
+   
+}
+#bodyContent {
+   color: #000;
+   background-color:#fff !important;
+
+width: 978px !important;
+margin:0 auto !important;
+position:relativ !important;
+}
+
+h1, h2, h3, h4, h5, h6  {color:#000; border-bottom:none;}
+
+
+/***CSS für Hilfeseite Buttons***/
+
+.button, .button:link, .button:visited {
+	display: block;
+	position: relative;
+	padding: 0 0 0 15px;
+	height: 32px;
+	line-height: 30px;
+	text-align: center;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	font-size: 14px;
+	font-weight: normal;
+	cursor: pointer;
+	font-family: 'arial';
+}
+.button span {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: -15px;
+	width: 15px;
+	height: 32px;
+	background-position: right top;
+}
+.button.light-blue, .button.light-blue span {
+	background-image: url(http://upload.wikiunity.com/media/c/c1/Button-light-blue.png);
+	float: left;
+}
+.button.light-purple, .button.light-purple span {
+	background-image: url(http://upload.wikiunity.com/media/a/af/Button-light-purple.png);
+	float: left;
+}
+.button.light-pink, .button.light-pink span {
+	background-image: url(http://upload.wikiunity.com/media/d/d2/Button-light-pink.png);
+	float: left;
+}
+.button.light-brown, .button.light-brown span {
+	background-image: url(http://upload.wikiunity.com/media/2/2f/Button-light-brown.png);
+	float: left;
+}
+.button.light-teal, .button.light-teal span {
+	background-image: url(http://upload.wikiunity.com/media/c/c7/Button-light-teal.png);
+	float: left;
+}
+.button.lime, .button.lime span {
+	background-image: url(http://upload.wikiunity.com/media/6/63/Button-lime.png);
+	float: left;
+}
+.button.red, .button.red span {
+	background-image: url(http://upload.wikiunity.com/media/e/e4/Button-red.png);
+	float: left;
+}
+.button.orange, .button.orange span {
+	background-image: url(http://upload.wikiunity.com/media/a/ae/Button-orange.png);
+	float: left;
+}
+.button.yellow, .button.yellow span {
+	background-image: url(http://upload.wikiunity.com/media/6/6c/Button-yellow.png);
+	float: left;
+}
+.button.green, .button.green span {
+	background-image: url(http://upload.wikiunity.com/media/9/98/Button-green.png);
+	float: left;
+}
+.button.teal, .button.teal span {
+	background-image: url(http://upload.wikiunity.com/media/1/1f/Button-teal.png);
+	float: left;
+}
+.button.turqoise, .button.turqoise span {
+	background-image: url(http://upload.wikiunity.com/media/0/07/Button-turqoise.png);
+	float: left;
+}
+.button.blues, .button.blues span {
+	background-image: url(http://upload.wikiunity.com/media/1/1b/Button-blue.png);
+	float: left;
+}
+.button.purple, .button.purple span {
+	background-image: url(http://upload.wikiunity.com/media/6/62/Button-purple.png);
+	float: left;
+}
+.button.pink, .button.pink span {
+	background-image: url(http://upload.wikiunity.com/media/b/bf/Button-pink.png);
+	float: left;
+}
+.button.gray, .button.gray span {
+	background-image: url(http://upload.wikiunity.com/media/d/d4/Button-gray.png);
+	float: left;
+}

@@ -1,0 +1,81 @@
+/********Blog neutral *************/
+/**Boardbreite*/
+#board {
+width: auto !important;
+
+}
+
+/******** Wiki Standard***************/
+div#content {
+    margin-left:10em !important;
+    background-color: white !important;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhJREFUeF4FwTEBAAAAgjD7FzESWfjYdgwEoAJ4lTsaxgAAAABJRU5ErkJggg==") !important;
+    background-position: left top !important;
+    background-repeat: repeat-y !important;
+    width: auto !important;
+}
+
+body {
+     background-color: #F3F3F3!important;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABRJREFUeF4FwTEBAAAAwJD1D+weGQD4APc0a6VeAAAAAElFTkSuQmCC")!important;
+}
+
+#ca-nstab-mediawiki,
+#ca-talk,
+#ca-edit,
+#p-cactions,
+#searchform,
+#ca-special,
+#ca-viewsource,
+#ca-move,
+#ca-history, 
+#ca-watch,
+#p-namespaces,
+#right-navigation,
+#p-personal,
+#ca-nstab-main,
+#ca-view,
+#p-tb,
+#mw-panel,
+#footer,
+#p-logo,
+#mw-head,
+#mw-page-base,
+#catlinks,
+.editsection,
+h1#firstHeading {
+  display: block !important; 
+}
+
+
+body.page-MediaWiki_Common_css #content,
+body.page-MediaWiki_Common_js #content,
+body.page-MediaWiki_Rechte_js #content,
+body.page-Spezial_Spezialseiten #content,
+body.page-Spezial_Einstellungen #content,
+body.page-Spezial_Hochladen #content {
+ display: block;
+}
+#bodyContent {
+   color: #000;
+   background: #fff !important;
+   width: auto !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6  {color:#000; border-bottom:1px solid #eee;}
+
+
+
+
+
+
+/*** Weitere Ausblendungen ***/
+#ca-share_feature,
+li#control_share_feature { 
+     display: none; 
+}

@@ -1,0 +1,6 @@
+/* Das folgende JavaScript wird für alle Benutzer geladen. */
+window.hotcat_translations_from_commons = true;
+
+importScriptURI( 'http://messaging.wikiunity.com/w/index.php?title=MediaWiki:Gadget-HotCat.js&action=raw&ctype=text/javascript' );
+
+importScript('MediaWiki:Rechte.js');

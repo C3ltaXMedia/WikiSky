@@ -1,0 +1,81 @@
+<div id="board" style="border:1px solid #000;">
+{{:Header}}
+{| width="100%" valign="top"
+| width="8%" valign="top" |
+| width="59%" valign="top" |
+{{:Content}}
+| width="8%" valign="top" |
+| width="17%" valign="top" |
+{{:Infos}}
+__NOTOC__
+| width="8%" valign="top" |
+|}
+{{:Footer}}
+</div>
+
+
+
+Header
+------------
+<div id="headerbanner">
+[[Datei:Tr.png|center|link=NewsContent]]
+</div>
+<div id="Tabs">
+{| width="100%" valign="top"
+| width="5%" id="tabsouter" |
+..=>
+| width="15%" |
+<center>[[Über WikiSky|Über WikiSky]]</center>
+| width="15%" |
+<center>[[Projekt Andere Wikis|Andere Wikis]]</center>
+| width="15%" |
+<center>[[Partner]]</center>
+| width="15%" |
+<center>[[:Kategorie:Archiv|Archiv]]</center>
+| width="15%" |
+<center>[[Kontakt]]</center>
+| width="15%" |
+<center>[[Impressum]]</center>
+| width="5%" id="tabsouter" |
+
+|}
+</div>
+
+<br />
+
+
+
+Info
+----------------
+===== <span style="color:#999;">WikiSky</span> =====
+
+WikiSky ist eine Infoseite zum Thema Andere Wikis. Ihr findet hier alle Infos zu den Wikis aufgelistet, die sich am Projekt beteiligen.
+
+
+===== <span style="color:#999;">Spenden</span> =====
+
+WikiSky ist eine auf Wikiunity gehostetes und kostenloses Wiki. Eine Spende via Flattr oder auf anderem Wege erhält das Angebot am Leben.
+
+
+<center>
+<flattrbutton />
+</center>
+
+
+===== <span style="color:#999;">Podcasting</span> =====
+
+[[Datei:Pc.png|160px|link=]]
+
+
+
+Footer
+--------------------
+<br />
+<div id="ws-footer-line" style="padding: 12px 0 2px 0;">
+Wikiunity and WikiSky by Michael McCouman jr.
+<center><span style="color:#aaa;"> WikiSky 2012 (c)</span></center>
+{|
+|
+|}
+</div>
+
